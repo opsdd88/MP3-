@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "***************************"
+BOT_TOKEN = 8471615027:AAH9mcWi_T1YuTw0q2GwhZoqzIlHMvarFCY""
 
 async def download_audio(update: Update, context: ContextTypes.DEFAULT_TYPE):
     url = update.message.text.strip()
@@ -184,4 +184,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
